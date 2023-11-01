@@ -1,17 +1,14 @@
 {
-  "name": "jsonresume-theme-orbit",
+  "name": "jsonresume-theme-orbit-highlights",
   "version": "2.0.0",
   "description": "Theme for JSON Resume based on Orbit design by xriley",
   "author": "XuluWarrior",
   "repository": {
     "type": "git",
-    "url": "https://github.com/XuluWarrior/jsonresume-theme-orbit.git"
+    "url": "https://github.com/roman-1905/jsonresume-theme-orbit-highlights.git"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/XuluWarrior/jsonresume-theme-orbit/issues"
-  },
-  "homepage": "https://github.com/XuluWarrior/jsonresume-theme-orbit",
+  "homepage": "https://github.com/roman-1905/jsonresume-theme-orbit-highlights",
   "scripts": {
     "serve": "resume serve --theme . --resume=example-resume.json",
     "build:example": "resume export example-resume.html --theme . --resume=example-resume.json --force",
