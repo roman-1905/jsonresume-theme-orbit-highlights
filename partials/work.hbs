@@ -19,7 +19,7 @@
                 <div class="company"></div>
 
                 <div class="details">
-                    {{#markdown}}<b>Highlights:</b>{{highlights}}{{/markdown}}
+                    {{#if highlights}}{{#markdown}}<b>Highlights: </b>{{highlights}}{{/markdown}}{{/if}}
                 </div><!--//details-->
             </div><!--//item-->
         {{/resume.work}}
